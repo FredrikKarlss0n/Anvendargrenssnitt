@@ -43,7 +43,6 @@ li-elementet på listan
 /*8 Färga var tredje rad #FFFF99 och varannan
 rad #CCFF66 (:nth) i tabellen
 */
-
 #colored_table tr:nth-of-type(3n) {
     color: #FFFF99;
 }
@@ -52,3 +51,49 @@ rad #CCFF66 (:nth) i tabellen
     ;
 }
 
+
+/*
+@font-face
+Tillägg denna stiliga prociono-font 
+som din header h1-stil!
+Tillägg en fritt valbar font i dokumentet 
+med googles webfonts till header h3.
+*/
+
+@font-face {
+    font-family: Prociono;
+    src: url('../webfonts/Prociono-Regular-webfont.ttf');
+        font-weight: normal;
+        font-style: normal;
+  }
+  @font-face {
+    font-family: Anton;
+    src: url('../webfonts/Anton-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+h1 {
+    font-family: Prociono, Helvetica;
+}
+h3 {
+    font-family: Anton, Helvetica;
+}
+/*
+Font Awesome
+Idag används det mycket ikoner för att 
+beskriva innehåll. Bl.a. Font Awesome bjuder 
+på gratis (och kommersiella) ikoner till 
+detta bruk. Font Awesome gratis ikoner
+
+Slutför övningen med att tillägga en 
+HTML5 och en CSS3 ikon:
+Bredvid varandra i slutet i 
+slutet av dokumentet
+färg: #333333, strolek: 42px
+*/
+
+i {
+    color: #333333;
+    font-size: 42px;
+}
