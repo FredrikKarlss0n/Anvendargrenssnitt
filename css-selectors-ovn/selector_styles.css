@@ -1,0 +1,39 @@
+/*1 Ändra bakgrundsfärgen på alla em-element inom article
+*/
+
+em {
+    background-color: rgb(182, 214, 255);
+}
+/*2 Ändra färgen på första nivån av huvudnavigationen 
+*/
+nav {
+    color: rgba(26, 72, 141, 0.993);
+}
+/*3 Ändra färgen på alla intilliggande p taggar inom 
+article-element
+*/
+article p {
+    color: rgb(34, 74, 100);
+}
+/*4 Färga alla taggar med title=”textsnutt” med #ff3300
+*/
+p [title="textsnutt"] {
+    color: #ff3300;
+}
+[title="textsnutt"] { color: #ff3300; }
+
+/*5 Ge en bakgrundsfärg #FF3300 till alla p-taggar med 
+title=”viktig paragraf” och title=”mycket viktig text”
+*/
+
+/*6 Färga #zebra-listans varannan rad med: #99ccff (:nth...)
+*/
+
+/*7 Lägg till en 2px border-bottom på sista 
+li-elementet på listan
+*/
+
+/*8 Färga var tredje rad #FFFF99 och varannan rad 
+#CCFF66 (:nth) i tabellen
+*/
+
