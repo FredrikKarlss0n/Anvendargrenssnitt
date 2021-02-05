@@ -43,9 +43,12 @@ li-elementet på listan
 /*8 Färga var tredje rad #FFFF99 och varannan
 rad #CCFF66 (:nth) i tabellen
 */
-#colored_table tbody:nth-type-of(3n) {
+
+#colored_table tr:nth-of-type(3n) {
     color: #FFFF99;
 }
-#colored_table tbody:nth-type-of(3n+2) {
+#colored_table tr:nth-of-type(3n+2) {
     color: #CCFF66;
+    ;
 }
+
