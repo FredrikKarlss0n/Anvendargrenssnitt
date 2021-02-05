@@ -17,23 +17,35 @@ article p {
 }
 /*4 Färga alla taggar med title=”textsnutt” med #ff3300
 */
-p [title="textsnutt"] {
+[title="textsnutt"] {
     color: #ff3300;
 }
-[title="textsnutt"] { color: #ff3300; }
-
 /*5 Ge en bakgrundsfärg #FF3300 till alla p-taggar med 
 title=”viktig paragraf” och title=”mycket viktig text”
 */
-
+[title="viktig paragraf"], [title="mycket viktig text"] {
+    background-color: #ff3300;
+}
 /*6 Färga #zebra-listans varannan rad med: #99ccff (:nth...)
 */
-
+#zebra li:nth-child(odd) {
+    color: #99ccff;
+}
+#zebra li:nth-child(even) {
+    color: #5ec982;
+}
 /*7 Lägg till en 2px border-bottom på sista 
 li-elementet på listan
 */
-
-/*8 Färga var tredje rad #FFFF99 och varannan rad 
-#CCFF66 (:nth) i tabellen
+#zebra li:last-child {
+    border-bottom: 2px solid #000;
+}
+/*8 Färga var tredje rad #FFFF99 och varannan
+rad #CCFF66 (:nth) i tabellen
 */
-
+#colored_table tbody:nth-type-of(3n) {
+    color: #FFFF99;
+}
+#colored_table tbody:nth-type-of(3n+2) {
+    color: #CCFF66;
+}
