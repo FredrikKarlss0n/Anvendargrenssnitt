@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 formulär</title>
+    <link rel="stylesheet" href="form_ovn-styles.css">
+</head>
+<body>
+
+<form>
+    <h1>
+        HTML-5 formulär 2
+    </h1>
+        <div id="contact">
+            <fieldset>
+            <legend>Login uppgifter</legend>
+            <p>
+                <label for="uname">username*</label>
+                <input type="text" name="uname" id="uname" 
+                minlength="2" maxlength="12" required>
+            </p>
+
+            <p>
+                <label for="password">password*</label>
+                <input type="password" name="password" id="password" 
+                minlength="6" required>
+            </p>
+
+            <p>
+                <label for="pin">security pin*</label>
+                <input type="password" name="pin" id="pin" 
+                minlength="4" maxlength="4" required>
+            </p>
+        </fieldset>
+        </div>
+            <p>
+
+
+            </p>
+        <div id="info">
+            <fieldset>
+            <legend>Användaruppgifter</legend>
+            <p>
+                <label for="site">website</label>
+                <input type="url" name="site" id="site" required>
+            </p>
+
+            <p>
+                <label for="färg">favoritfärg</label>
+                <input type="color" name="färg" id="färg">
+            </p>
+            
+            <p>
+                <label for="pren">starta prenumeration</label>
+                <input type="date" name="pren" id="pren"
+                min="2021-06-01">
+            </p>
+
+            <p>
+                <label for="list">random list (dubbelklicka)</label>
+                <input list="färger">
+
+                <datalist id="färger">
+                    <option value="svart">
+                    <option value="vitt">
+                    <option value="rött">
+                    <option value="grönt">
+                    <option value="blått">
+                    <option value="gult">
+                    <option value="orange">
+                    <option value="brunt">
+                    <option value="lila">
+                    <option value="grått">
+                    <option value="ljusrött">
+                </datalist> 
+           </p>
+
+        </div>
+    </fieldset>
+</form>
+
+
+</body>
+</html>
