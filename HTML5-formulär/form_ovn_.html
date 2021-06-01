@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 formulär</title>
+    <link rel="stylesheet" href="form_ovn-styles.css">
+</head>
+<body>
+
+    <form>
+        <h1>
+            HTML-5 formulär
+        </h1>
+            <div id="contact">
+                <fieldset>
+                <legend>Kontaktuppgifter</legend>
+                <p>
+                    <label for="name">namn*</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+
+                <p>
+                    <label for="e-mail">e-post*</label>
+                    <input type="email" name="e-mail" id="e-mail" required>
+                </p>
+
+                <p>
+                    <label for="datum">födelsedatum</label>
+                    <input type="date" name="datum" id="datum" required>
+                </p>
+            </fieldset>
+            </div>
+                <p>
+
+
+                </p>
+            <div id="info">
+                <fieldset>
+                <legend>Tillägsinfo</legend>
+                <p>
+                    <label for="vitsord">vitsord för kursen (0-3)*</label>
+                    <input type="range" name="vitsord" id="vitsord" 
+                    min="0" max="3"required>
+                </p>
+
+                <p>
+                    <label for="kommentar">kommentar</label>
+                    <textarea> </textarea>
+                </p>
+                
+                <p>
+                    <label for="checkbox">Skicka gärna nyhetsbrev!</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </p>
+            </div>
+        </fieldset>
+            <p>
+                <label for="skicka">Skicka</label>
+                <input type="checkbox" name="skicka" id="skicka" required>
+            </p>
+    </form>
+
+
+</body>
+</html>
