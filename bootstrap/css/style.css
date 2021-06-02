@@ -1,0 +1,4 @@
+div[class*="col-"] {
+    background-color: #ccc;
+    min-height: 100px;
+}

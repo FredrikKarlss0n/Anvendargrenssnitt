@@ -1,0 +1,7 @@
+.row > div {
+    /*background-color: #ccc;*/
+    min-height: 50px;
+}
+img {
+    max-width: 100%;
+}
